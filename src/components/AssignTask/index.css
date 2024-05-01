@@ -1,0 +1,113 @@
+.assign-task-container {
+  background-color: #9d9e9d;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-container {
+  display: flex;
+}
+
+.assign-task-button {
+  color: #ffffff;
+  background-color: green;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.employees-names-list {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.assigned-task-list {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.unordered-assigned-task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.table-headings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.each-assigned-task-item {
+  display: flex;
+}
+
+.employee-name-heading {
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.assigned-task-heading {
+  margin-right: 60px;
+  font-size: 15px;
+}
+
+.task-status-heading {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.employee-name {
+  margin-right: 130px;
+}
+
+.assigned-task {
+  margin-right: 100px;
+}
+
+.task-status {
+  margin-right: 50px;
+}
+
+.start-button {
+  background-color: #63bf74;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 10%;
+  padding: 2%;
+  margin: 2%;
+}
+
+.inprogress-button {
+  background-color: #d9d36c;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 10%;
+  padding: 2%;
+  margin: 2%;
+}
+
+.end-button {
+  background-color: #e06441;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 10%;
+  padding: 2%;
+  margin: 2%;
+}

@@ -1,0 +1,90 @@
+.task-status-summary-container {
+  background-color: #8a997d;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.task-status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.task-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.tabs-unordered-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.each-tab-list {
+  margin: 30px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.tab-button {
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.unordered-assigned-tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.taskstatus-table-headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.each-filtered-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.active-tab-btn {
+  text-decoration: underline;
+  color: #0b1380;
+}
+
+.taskstatus-employeename-heading {
+  margin-right: 50px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.taskstatus-task-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.taskstatus-employeename {
+  margin-right: 150px;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.taskstatus-task {
+  font-family: 'Roboto';
+  font-size: 17px;
+}

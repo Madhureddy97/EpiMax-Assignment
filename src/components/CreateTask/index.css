@@ -1,0 +1,52 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cc9dd1;
+  background-size: cover;
+}
+
+.task-list-heading {
+  text-align: center;
+}
+
+.create-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #8a997d;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.task-input {
+  padding: 5px;
+}
+
+.Add-task-button {
+  color: #ffffff;
+  background-color: green;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.err-msg-text {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.ordered-taskitems-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 140px;
+}
